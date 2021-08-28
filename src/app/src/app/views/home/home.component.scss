@@ -1,0 +1,173 @@
+$label:larger;
+$text:center;
+.container-fluid{
+  padding-left: 0 !important;
+ padding-right: 0 !important;
+}
+.carousel{
+  height: 500px !important;
+}
+label{
+  font-size: $label;
+}
+// .contantfeatures{
+//   position: absolute;
+//   top: 30%;
+//   left: 30%;
+//   transform: translate(-50%, -50%);
+// }
+.topnav-left {
+  float:left;
+}
+.buttonnav{
+  float: right;}
+@media screen and (max-width: 1000px){
+.logo{
+  height: 30px;
+}
+.buttonnav{
+  float: left;}
+}
+p{
+  i{
+    opacity:66%;
+  }
+}
+.atag{
+  div{
+    a{
+      text-decoration: none;
+      color: black;
+    }
+  }
+}
+nav{
+  ul{
+    // background-color: lightcoral;
+    text-align :center;
+    margin-top: 2% !important;
+     @media screen and (max-width: 1000px){
+      text-align: unset !important;
+    }
+     
+    a{
+     list-style: none;
+     text-decoration:none;
+     padding: 10px;
+     text-transform: uppercase;
+     font-size :larger;
+     font-weight:bold;
+     display:initial;
+     color: rgb(19, 18, 18);
+    @media screen and (max-width: 1000px){
+      font-size :x-small;
+    }
+        :hover{
+        background-color: bisque;
+        }
+    }
+  }
+}   
+#text{
+ text-align: $text;
+ :only-of-type
+ { margin-bottom: 20px;}
+ }
+ .imgcolor{
+   img{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+  }
+}
+.imgblur{
+  img{
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+
+  }
+}
+ 
+ .aboutstory{
+    p{
+      :only-child{
+       background-color: #c2a196;
+       color: #ddd;
+      }
+    // ::first-line{
+    //          background-color: red;
+    //   }
+   }
+  }
+span{
+    font-size: larger;
+}
+.menu{
+ img{
+     border-radius: 50px;
+    }
+  }
+p{
+ font-size: larger;
+}
+img{
+  width: 100%;
+}
+.background{
+  width: 100%;
+  height: 100%;
+  background-color: #e9967a;
+  // background-image: url('https://c0.wallpaperflare.com/preview/1013/496/951/mockup-bakery-bread-pastry.jpg');
+  // background-repeat:no-repeat;
+  img{
+    width: 45%;
+    float: right;
+   margin: 10px;
+    border-radius: 60px;
+    opacity:35%;
+  }
+}
+@media screen and (max-width: 1000px){
+.menu{
+  img{
+      // width: 100%;
+      // height: 100%;
+      margin-top:10px;
+    }
+  }
+  li{
+     font-size: small !important;
+  }
+}
+.side {
+ -ms-flex: 10%; /* IE10 */
+ flex: 10%;
+ background-color: #f1f1f1;
+ padding: 20px;
+  @media screen and (max-width: 1000px) {
+    .side {
+     -ms-flex: 10%; /* IE10 */
+     flex: 10%;
+     background-color: #f1f1f1;
+    padding: 20px;
+    }
+  }
+}
+  /* Main column */
+.main {   
+ -ms-flex: 70%; /* IE10 */
+ flex: 70%;
+ background-color: white;
+ padding: 20px;
+}
+  /* Footer */
+.footer {
+ padding: 20px;
+ text-align: center;
+ background: #ddd;
+ width: 100%;
+}
+@media screen and (max-width: 1000px) {
+.carousel{
+  height: 300px !important;
+}
+}
