@@ -17,9 +17,7 @@ export class HomeComponent implements OnInit {
   button3 ='Learn more';
   isLoading3 = false;
 
-  constructor() {
-
-  }
+  constructor() { }
 
   ngOnInit(){}
   click() {
